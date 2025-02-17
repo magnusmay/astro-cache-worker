@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "wrangler dev",
     "types": "wrangler types --env-interface CloudflareBindings --experimental-include-runtime ./worker-runtime.d.ts",
-    "preview": "wrangler dev",
-    "deploy": "wrangler deploy --minify"
+    "deploy": "wrangler deploy"
   },
   "devDependencies": {
     "typescript": "^5.7.3",

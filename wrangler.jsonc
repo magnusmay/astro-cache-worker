@@ -6,6 +6,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "astro-cache-worker",
   "main": "src/index.ts",
+  "minify": true,
 
   /**
    * Compatibility
